@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @M7-Soliman 
 - 🌱 I’m interested in Full Stack Development, Machine Learning and Data Science
-- 📫 Reach me on linkedin: https://www.linkedin.com/in/hussiny/
+- 📫 Reach me on LinkedIn: https://www.linkedin.com/in/hussiny/
 
 
 
