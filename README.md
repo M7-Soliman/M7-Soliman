@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Soliman</h1>
 <h3 align="center">I’m interested in Full Stack Development, Machine Learning and Data Science</h3>
 
-- 👯 I’m looking to collaborate on **Open Source Projects**
-
 - 📫 How to reach me **Elhussinyh24@mail.wlu.edu**
 
 <h3 align="left">Connect with me:</h3>
