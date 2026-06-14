@@ -1,0 +1,41 @@
+<svg viewBox="0 0 960 684" width="960" height="684" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Soliman M.H. — engineer and technical founder. I enjoy building cool and challenging stuff. Currently building the next gen of organizational infra. Stealth, for now. Built at: ClaimsHero, TradeEngage, Maverick (YC S22), Talabat, Stanford Snyder Lab (Wearipedia). Research: Method Signature Similarity in Java Codebases (ASSE 2024); Open-source Tools for Wearable Data Extraction (medRxiv 2025). Stack: Python, TypeScript, React, Next.js, Node, SQL, C/C++, Django, AWS, Docker, Kubernetes, Snowflake, Qdrant, Convex, LangChain. Links: linkedin.com/in/hussiny, x.com/Soliman_M_H.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0C12"/><stop offset="1" stop-color="#07080C"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A8C5F5"/><stop offset="1" stop-color="#FDCA40"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#151B28"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="684" fill="url(#bg)"/>
+  <rect x="660" y="0" width="300" height="220" fill="url(#dots)" opacity="0.6"/>
+
+  <!-- header -->
+  <text x="74" y="88" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#A8C5F5" letter-spacing="5">ENGINEER · TECHNICAL FOUNDER</text>
+  <text x="70" y="174" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="800" font-size="80" fill="#F4F6FA" letter-spacing="-2">Soliman M.H.</text>
+  <rect x="74" y="198" width="150" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="74" y="242" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#C7CEDA">I enjoy building cool and challenging stuff.</text>
+  <text x="74" y="274" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17.5" fill="#8E97A4">Currently building the next gen of organizational infra. Stealth, for now <tspan fill="#FDCA40">:)</tspan></text>
+
+  <!-- built at -->
+  <text x="74" y="336" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#A8C5F5" letter-spacing="4">BUILT AT</text>
+  <text x="74" y="368" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#C2C9D4">ClaimsHero<tspan fill="#414956"> · </tspan>TradeEngage<tspan fill="#414956"> · </tspan>Maverick<tspan fill="#79828F"> (YC S22)</tspan><tspan fill="#414956"> · </tspan>Talabat<tspan fill="#414956"> · </tspan>Stanford Snyder Lab<tspan fill="#79828F"> (Wearipedia)</tspan></text>
+
+  <!-- research -->
+  <text x="74" y="422" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#A8C5F5" letter-spacing="4">RESEARCH</text>
+  <text x="74" y="454" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-style="italic" fill="#D7DCE4">Method Signature Similarity in Java Codebases<tspan font-style="normal" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#79828F">　·　ASSE 2024</tspan></text>
+  <text x="74" y="482" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-style="italic" fill="#D7DCE4">Open-source Tools for Wearable Data Extraction<tspan font-style="normal" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#79828F">　·　medRxiv 2025</tspan></text>
+
+  <!-- stack -->
+  <text x="74" y="536" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#A8C5F5" letter-spacing="4">STACK</text>
+  <text x="74" y="570" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#C2C9D4">Python · TypeScript · React · Next.js · Node · SQL · C/C++ · Django</text>
+  <text x="74" y="598" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#868F9D">AWS · Docker · Kubernetes · Snowflake · Qdrant · Convex · LangChain</text>
+
+  <!-- links -->
+  <line x1="74" y1="630" x2="886" y2="630" stroke="#161B26" stroke-width="1"/>
+  <text x="74" y="660" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#A8C5F5">linkedin.com/in/hussiny<tspan fill="#3A4150">　·　</tspan>x.com/Soliman_M_H</text>
+</svg>
