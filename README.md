@@ -42,6 +42,5 @@ Distributed systems · database internals · concurrency · networking · agenti
 
 <!-- Drop your GitHub username in below to light these up -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=M7-Soliman&show_icons=true&hide_border=true&theme=tokyonight" alt="stats" height="160"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M7-Soliman&layout=compact&hide_border=true&theme=tokyonight" alt="top langs" height="160"/>
 </p>
