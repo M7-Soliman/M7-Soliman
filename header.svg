@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1280 340" width="1280" height="340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Soliman — software engineer working on retrieval systems, data pipelines, and full-stack products">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C1018"/>
+      <stop offset="1" stop-color="#080A10"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5B8AC9"/>
+      <stop offset="1" stop-color="#E8B45A"/>
+    </linearGradient>
+    <radialGradient id="qglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E8B45A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E8B45A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.3" cy="1.3" r="1.3" fill="#27303F"/>
+    </pattern>
+    <style>
+      .name { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:800; }
+      .mono { font-family: ui-monospace,'SF Mono','JetBrains Mono','Menlo','Consolas','Courier New',monospace; }
+      .body { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+      .edge { stroke:#E8B45A; stroke-width:1.2; stroke-opacity:0.55; stroke-dasharray:240; stroke-dashoffset:0; }
+      .halo { transform-origin:1012px 182px; }
+
+      @keyframes draw { from { stroke-dashoffset:240; } to { stroke-dashoffset:0; } }
+      @keyframes rise { from { opacity:0; transform:scale(0.4); } to { opacity:1; transform:scale(1); } }
+      @keyframes pulse { 0%,100% { opacity:0.45; transform:scale(0.92);} 50% { opacity:0.85; transform:scale(1.12);} }
+
+      .edge { animation: draw 0.9s ease-out both; }
+      .e2 { animation-delay:0.10s } .e3 { animation-delay:0.18s }
+      .e4 { animation-delay:0.26s } .e5 { animation-delay:0.34s }
+      .match { transform-box:fill-box; transform-origin:center; animation: rise 0.5s ease-out both; animation-delay:0.5s; }
+      .halo { animation: pulse 3.4s ease-in-out infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .edge,.match { animation:none; }
+        .halo { animation:none; opacity:0.6; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#ink)"/>
+
+  <!-- latent-space panel -->
+  <g>
+    <rect x="772" y="0" width="508" height="340" fill="url(#dots)" opacity="0.5"/>
+    <line x1="772" y1="40" x2="772" y2="300" stroke="#1B2230" stroke-width="1"/>
+
+    <!-- nearest-neighbour radius -->
+    <circle cx="1012" cy="182" r="58" fill="none" stroke="#5B8AC9" stroke-opacity="0.28" stroke-width="1"/>
+    <circle cx="1012" cy="182" r="96" fill="none" stroke="#5B8AC9" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="3 5"/>
+
+    <!-- edges to k nearest -->
+    <line class="edge e1" x1="1012" y1="182" x2="1072" y2="140"/>
+    <line class="edge e2" x1="1012" y1="182" x2="1080" y2="222"/>
+    <line class="edge e3" x1="1012" y1="182" x2="952" y2="150"/>
+    <line class="edge e4" x1="1012" y1="182" x2="948" y2="224"/>
+    <line class="edge e5" x1="1012" y1="182" x2="1016" y2="250"/>
+
+    <!-- field (non-matched) nodes -->
+    <g fill="#3C4658">
+      <circle cx="862" cy="92"  r="3"/>
+      <circle cx="1168" cy="108" r="3"/>
+      <circle cx="1192" cy="252" r="3"/>
+      <circle cx="884" cy="276" r="3"/>
+      <circle cx="1138" cy="186" r="3"/>
+      <circle cx="900" cy="186" r="3"/>
+      <circle cx="1206" cy="178" r="2.5"/>
+      <circle cx="1092" cy="86"  r="2.5"/>
+      <circle cx="820" cy="206" r="2.5"/>
+      <circle cx="1150" cy="300" r="2.5"/>
+    </g>
+
+    <!-- k nearest (matched) -->
+    <g fill="#E8B45A">
+      <circle class="match" cx="1072" cy="140" r="4.5"/>
+      <circle class="match" cx="1080" cy="222" r="4.5"/>
+      <circle class="match" cx="952" cy="150" r="4.5"/>
+      <circle class="match" cx="948" cy="224" r="4.5"/>
+      <circle class="match" cx="1016" cy="250" r="4.5"/>
+    </g>
+
+    <!-- query node -->
+    <circle class="halo" cx="1012" cy="182" r="22" fill="url(#qglow)"/>
+    <circle cx="1012" cy="182" r="6" fill="#0C1018" stroke="#E8B45A" stroke-width="2"/>
+    <circle cx="1012" cy="182" r="2.4" fill="#E8B45A"/>
+
+    <text x="1028" y="178" class="mono" font-size="12" fill="#8A93A3" letter-spacing="0.5">query</text>
+    <text x="772" y="324" class="mono" font-size="11.5" fill="#5A6675" letter-spacing="1">k-NN  ·  k = 5</text>
+  </g>
+
+  <!-- text block -->
+  <g>
+    <text x="64" y="96" class="mono" font-size="14" fill="#5B8AC9" letter-spacing="3">SOFTWARE  ENGINEER</text>
+    <text x="60" y="184" class="name" font-size="92" fill="#EDF1F7" letter-spacing="-2">Soliman</text>
+    <rect x="64" y="208" width="132" height="3" rx="1.5" fill="url(#rule)"/>
+    <text x="64" y="252" class="body" font-size="20" fill="#A7B0BE">Retrieval, ranking, and the data systems</text>
+    <text x="64" y="280" class="body" font-size="20" fill="#A7B0BE">that decide what's relevant.</text>
+  </g>
+</svg>
