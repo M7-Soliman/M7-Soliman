@@ -2,7 +2,6 @@
 <p align="center">
 Software engineer who likes to go deep — distributed systems, database internals, and agentic AI. I build things end to end and treat engineering craft like a sport.
 </p>
-<p align="center">📍 Tucson, AZ &nbsp;•&nbsp; 🇪🇬🇺🇸</p>
 
 🔭 What I'm into
 
